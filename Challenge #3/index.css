@@ -1,0 +1,54 @@
+:root {
+    --clr-primary-200: #38CFD9;
+    --clr-primary-400: #136C72;
+    --clr-primary-600: #23424A;
+
+    --ff-primary: 'Roboto', sans-serif; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: 21px;
+    line-height: 1.4;
+    color: white;
+    
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 3rem;
+}
+
+.intro {
+    width: 80%;
+    margin: 0 auto;
+    padding: 6.5rem 5rem;
+    background-color: #23424A;
+}
+
+.container {
+    width: 50%;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2em;
+    padding: 0.7em 2em;
+    background-color: var(--clr-primary-200);
+    color: var(--clr-primary-600);
+}
